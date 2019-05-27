@@ -12,6 +12,7 @@
       <?php get_template_part('template-parts/content', 'hero'); ?>
       <?php get_template_part('template-parts/content', 'skills'); ?>
       <?php get_template_part('template-parts/content', 'portfolio'); ?>
+      <?php get_template_part('template-parts/content', 'contact'); ?>
 
     <?php endwhile; ?>
   </main>
