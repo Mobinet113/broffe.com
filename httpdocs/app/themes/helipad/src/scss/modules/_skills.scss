@@ -1,0 +1,35 @@
+section#skills {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+
+  .flourish {
+    position: relative;
+    left: -20px;
+    width: 0;
+    overflow: hidden;
+
+    svg {
+      width: 110vw;
+    }
+  }
+
+  h2 {
+    color: $color-d;
+  }
+
+  .skill-lists{
+    position: relative;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 10px 0;
+      font-size: 2rem;
+    }
+  }
+}

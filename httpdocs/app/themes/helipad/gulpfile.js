@@ -18,7 +18,7 @@ const cssnano = require('cssnano');
 /**
  * Settings
  */
-let domain = 'helipad.test'; // Used for BrowserSync
+let domain = 'broffe.test'; // Used for BrowserSync
 
 
 /**

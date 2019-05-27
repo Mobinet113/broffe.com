@@ -2,23 +2,25 @@
 
 // @import "../../node_modules/bootstrap/scss/bootstrap";
 
+/*
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
-
+*/
 
 /* [ FONTS ] */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
 
 /* [ VARS ] */
 
-$font-a: 'Roboto', sans-serif;
+$font-a: 'Quicksand', sans-serif;
 
 $color-a: #141414;
 $color-b: #272727;
 $color-c: #ebebeb;
+$color-d: #eb4aac;
 
 
 /* [ IMPORTS ] */

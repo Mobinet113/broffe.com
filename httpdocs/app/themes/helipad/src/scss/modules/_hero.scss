@@ -1,0 +1,39 @@
+section#hero {
+  position: relative;
+  height: 100vh;
+
+  .to-animate{
+    opacity: 0;
+  }
+
+  .title {
+    text-align: right;
+  }
+
+  .strap {
+    position: relative;
+    color: white;
+
+    .band{
+      position: absolute;
+      width: 0;
+      height: 100%;
+      right: 0;
+      background: $color-d;
+      opacity: 0;
+      z-index: -1;
+    }
+  }
+
+  footer{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .title, .strap {
+      text-align: center;
+    }
+  }
+}

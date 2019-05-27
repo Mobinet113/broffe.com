@@ -83,3 +83,4 @@ add_action('wp_enqueue_scripts', 'load_scripts');
 
 include('inc/metaboxes.php');
 include('inc/postTypes.php');
+include('inc/portfolio.php');
