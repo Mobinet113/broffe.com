@@ -11,8 +11,7 @@
         <a href="https://www.linkedin.com/in/benjamin-roffe-812672129/"><i class="fab fa-linkedin fa-2x"></i></a>
         <a href="https://github.com/Mobinet113"><i class="fab fa-github-square fa-2x"></i></a>
         <a href="mailto:mailto:hello@broffe.com"><i class="fas fa-envelope-square fa-2x"></i></a>
-
       </div>
     </div>
   </div>
-</section>
+</section>  
