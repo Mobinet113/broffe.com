@@ -5,6 +5,14 @@ section#contact{
 
     a{
       color: $color-a;
+
+      &:hover{
+        color: $color-d;
+      }
+
+      &:active{
+        color: darken($color-d, 10%);
+      }
     }
 
     i{

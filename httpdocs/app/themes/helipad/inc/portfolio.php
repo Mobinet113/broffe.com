@@ -87,14 +87,14 @@ function portfolio($derivative = false){
         "AWS Cloudfront CDN"
       ]
     ],
-    [
+    /*[
       "title" => 'Alaris Corporate Finance',
       "image" => $dir . 'alaris.png',
       "url" => "https://www.alariscf.co.uk/",
       "tech" => [
         "WordPress"
       ]
-    ],
+    ],*/
     [
       "title" => 'Ealing Soup Kitchen',
       "image" => $dir . 'ealing-soup-kitchen.png',
@@ -159,8 +159,8 @@ function portfolio($derivative = false){
         "AWS DynamoDB",
         "AWS AppSync"
       ]
-    ],
-    [
+    ]
+    /*[
       "title" => 'What Would You Do?',
       "image" => $dir . 'wwyd.png',
       "url" => "https://www.wwyd.games/",
@@ -168,7 +168,7 @@ function portfolio($derivative = false){
         "WordPress",
         "Sass"
       ]
-    ]
+    ]*/
   ];
 
 }
