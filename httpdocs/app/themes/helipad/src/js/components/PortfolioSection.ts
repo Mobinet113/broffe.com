@@ -6,12 +6,14 @@ export default class PortfolioSection{
   private scrollDist: number = 0;
   private elemPosY: number = this.container.position().top;
   private band: JQuery = this.container.find('.flourish');
+  private piece: JQuery = this.container.find('.piece');
 
 
   onScroll = (): number => {
     this.scrollDist = window.scrollY;
 
     this.animateSection();
+    //this.onItemHover();
 
     return this.scrollDist;
   };
@@ -24,6 +26,24 @@ export default class PortfolioSection{
         width: `${width}%`
       })
     }
+  }
 
+  onItemHover = ():void => {
+    this.piece.on('mouseover', (evt) => {
+
+      let target = evt.currentTarget;
+
+      let x = Math.floor(Math.random() * 20) + 1;
+      let y = Math.floor(Math.random() * 20) + 1;
+
+      TweenMax.to(target, 0.25,{
+        x: x,
+        y: y
+      });
+
+      console.log(evt);
+
+
+    });
   }
 }

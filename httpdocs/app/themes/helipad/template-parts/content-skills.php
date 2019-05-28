@@ -41,4 +41,13 @@
     </div>
 
   </div>
+
+  <footer class="row to-animate">
+    <div class="col text-center">
+      <button class="round next-section">
+        <i class="fas fa-angle-double-down"></i>
+      </button>
+    </div>
+  </footer>
+
 </section>
