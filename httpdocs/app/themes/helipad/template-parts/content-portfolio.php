@@ -20,7 +20,7 @@ $portfolio = portfolio();
 
       <?php foreach ($portfolio as $item) : ?>
         <div class="col-xs-6 col-sm-4 col-lg-3 piece">
-          <a href="<?php echo $item['url']; ?>" rel="noopener nofollow">
+          <a href="<?php echo $item['url']; ?>" rel="noopener nofollow" target="_blank">
             <article>
               <figure>
                 <img src="<?php echo $item['image']; ?>" alt="<?php echo $item['title']; ?>">
