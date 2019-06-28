@@ -1,4 +1,8 @@
-
+<?php
+/**
+ *
+ */
+?>
 <footer id="colophon" role="contentinfo">
 
 </footer>
